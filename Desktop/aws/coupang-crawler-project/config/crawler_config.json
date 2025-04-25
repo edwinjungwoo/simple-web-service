@@ -1,0 +1,22 @@
+{
+  "url_wait_time": {"min": 15, "max": 30},
+  "batch_wait_time": {"min": 25, "max": 70},
+  "batch_size": 2,
+  "headless": false,
+  "browsers": ["webkit"],
+  "max_retries": 3,
+  "recovery_wait": 1200,
+  "parallel_browsers": 1,
+  "stealth_mode": {
+    "enabled": true,
+    "viewport": {"width": 1920, "height": 1080},
+    "user_agent": "auto"
+  },
+  "output_basename": "coupang",
+  "proxy": {
+    "enabled": false,
+    "server": "kr.decodo.com:10000",
+    "username": "sp0lii21x7",
+    "password": "NkN0snYe7_gek3B0mz"
+  }
+}

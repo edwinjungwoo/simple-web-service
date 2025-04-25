@@ -1,0 +1,36 @@
+{
+  "product_name": [
+    "#contents .prod-buy-header h1",
+    "h2.prod-buy-header__title",
+    ".prod-buy-header h1"
+  ],
+  "price": [
+    "#contents > div.prod-atf > div.prod-atf-main .prod-sale-price.price-align span.total-price strong",
+    "#contents > div.prod-atf > div.prod-atf-main .total-price:not(.price-strike) strong",
+    "#contents > div.prod-atf > div.prod-atf-main .prod-price span.total-price"
+  ],
+  "origin_price": [
+    "#contents > div.prod-atf > div.prod-atf-main .prod-origin-price span.origin-price",
+    "#contents > div.prod-atf > div.prod-atf-main .origin-price",
+    "#contents > div.prod-atf > div.prod-atf-main .price-strike"
+  ],
+  "coupon_price": [
+    "#contents > div.prod-atf > div.prod-atf-main .prod-coupon-price span.total-price strong",
+    "#contents > div.prod-atf > div.prod-atf-main .major-price-coupon .total-price strong"
+  ],
+  "ac_price": [
+    ".insurance-content__header__price",
+    ".apple-care-price"
+  ],
+  "coupon_indicators": [
+    ".price-txt-info.font-medium:text('\ucfe0\ud3f0\ud560\uc778')",
+    "span.price-txt-info:text('\ucfe0\ud3f0\ud560\uc778')",
+    ".coupon-price:not(:empty)"
+  ],
+  "block_indicators": [
+    "#contents",
+    ".prod-buy-header",
+    ".prod-price",
+    ".prod-sale-price"
+  ]
+}

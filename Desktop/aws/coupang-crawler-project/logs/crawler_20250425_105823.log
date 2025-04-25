@@ -1,0 +1,23 @@
+2025-04-25 10:58:23,359 - coupang_crawler - INFO - 쿠팡 크롤러 초기화
+2025-04-25 10:58:23,359 - coupang_crawler - INFO - 설정 파일 로드 완료: crawler_config.json
+2025-04-25 10:58:23,360 - coupang_crawler - INFO - 셀렉터 파일 로드 완료: selectors.json
+2025-04-25 10:58:23,360 - coupang_crawler - INFO - 자동 재시작: 활성화
+2025-04-25 10:58:23,360 - coupang_crawler - INFO - URL 대기 시간 설정: {'min': 15, 'max': 30}초
+2025-04-25 10:58:23,361 - coupang_crawler - INFO - 배치 대기 시간 설정: {'min': 25, 'max': 70}초
+2025-04-25 10:58:23,361 - coupang_crawler - INFO - 차단 감지 시 대기 시간: 1200초 (20분)
+2025-04-25 10:58:23,361 - coupang_crawler - INFO - 파일 로드 중: crawling-source.xlsx
+2025-04-25 10:58:23,723 - coupang_crawler - INFO - 파일에서 로드된 총 URL 수: 427
+2025-04-25 10:58:23,724 - coupang_crawler - INFO - 파일의 고유 URL 수: 426 (중복 URL: 1개)
+2025-04-25 10:58:23,724 - coupang_crawler - INFO - 상태 파일 로드: {'file_path': 'crawling-source.xlsx', 'last_batch': 0, 'last_index': 0, 'blocked_url_idx': None, 'timestamp': '2025-04-24 17:50:04'}
+2025-04-25 10:58:23,724 - coupang_crawler - INFO - 로드된 상태: {'file_path': 'crawling-source.xlsx', 'last_batch': 0, 'last_index': 0, 'blocked_url_idx': None, 'timestamp': '2025-04-24 17:50:04'}
+2025-04-25 10:58:23,725 - coupang_crawler - INFO - 처리할 URL 범위: 0 ~ 426 (총 427개)
+2025-04-25 10:58:23,725 - coupang_crawler - INFO - 첫 번째 URL: https://www.coupang.com/vp/products/7630888717?itemId=20252600653&vendorItemId=87340557636&sourceType=cmgoms&omsPageId=81915&omsPageUrl=81915&isAddedCart=
+2025-04-25 10:58:23,726 - coupang_crawler - INFO - 마지막 URL: https://www.coupang.com/vp/products/8335416769?itemId=24068243370&vendorItemId=91088006345&sourceType=cmgoms&omsPageId=84874&omsPageUrl=84874&isAddedCart=
+2025-04-25 10:58:23,726 - coupang_crawler - INFO - 총 427개의 URL을 2개씩 배치 처리합니다.
+2025-04-25 10:58:23,727 - coupang_crawler - INFO - 상태 저장 완료: {'file_path': 'crawling-source.xlsx', 'last_batch': 0, 'last_index': 0, 'blocked_url_idx': None, 'timestamp': '2025-04-25 10:58:23'}
+2025-04-25 10:58:23,727 - coupang_crawler - INFO - 현재 상태 저장: 배치 0, 인덱스 0
+2025-04-25 10:58:23,727 - coupang_crawler - INFO - 배치 1 시작 (URL 1~2/427)
+2025-04-25 10:58:23,728 - coupang_crawler - INFO - 배치 내 URL 1: https://www.coupang.com/vp/products/7630888717?itemId=20252600653&vendorItemId=87340557636&sourceType=cmgoms&omsPageId=81915&omsPageUrl=81915&isAddedCart=
+2025-04-25 10:58:23,728 - coupang_crawler - INFO - 배치 내 URL 2: https://www.coupang.com/vp/products/7630888717?itemId=20252600653&vendorItemId=87340557859&sourceType=cmgoms&omsPageId=81915&omsPageUrl=81915&isAddedCart=
+2025-04-25 10:58:24,510 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-3' coro=<Connection.run.<locals>.init() running at C:\Users\admin\Desktop\aws\coupang_crawler\venv\lib\site-packages\playwright\_impl\_connection.py:277> wait_for=<Future pending cb=[Task.task_wakeup()]> cb=[ProtocolCallback.__init__.<locals>.cb() at C:\Users\admin\Desktop\aws\coupang_crawler\venv\lib\site-packages\playwright\_impl\_connection.py:198]>

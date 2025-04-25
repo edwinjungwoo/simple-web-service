@@ -1,0 +1,36 @@
+2025-04-25 18:19:03,604 - coupang_crawler - INFO - 쿠팡 크롤러 초기화
+2025-04-25 18:19:03,605 - coupang_crawler - INFO - 설정 파일 로드 완료: C:\Users\admin\Desktop\aws\coupang-crawler-project\config\crawler_config.json
+2025-04-25 18:19:03,605 - coupang_crawler - INFO - 셀렉터 파일 로드 완료: C:\Users\admin\Desktop\aws\coupang-crawler-project\config\selectors.json
+2025-04-25 18:19:03,606 - coupang_crawler - INFO - 자동 재시작: 활성화
+2025-04-25 18:19:03,606 - coupang_crawler - INFO - 자동 결과 검증: 활성화
+2025-04-25 18:19:03,606 - coupang_crawler - INFO - URL 대기 시간 설정: {'min': 15, 'max': 30}초
+2025-04-25 18:19:03,608 - coupang_crawler - INFO - 배치 대기 시간 설정: {'min': 25, 'max': 70}초
+2025-04-25 18:19:03,608 - coupang_crawler - INFO - 차단 감지 시 대기 시간: 1200초 (20분)
+2025-04-25 18:19:03,608 - coupang_crawler - INFO - 파일 로드 중: source_urls.xlsx
+2025-04-25 18:19:03,953 - coupang_crawler - INFO - 파일에서 로드된 총 URL 수: 427
+2025-04-25 18:19:03,954 - coupang_crawler - INFO - 파일의 고유 URL 수: 426 (중복 URL: 1개)
+2025-04-25 18:19:03,954 - coupang_crawler - INFO - 상태 파일 로드: {'file_path': '', 'last_batch': 0, 'last_index': 0, 'blocked_url_idx': None, 'timestamp': '2025-04-25 16:37:04'}
+2025-04-25 18:19:03,955 - coupang_crawler - INFO - 로드된 상태: {'file_path': '', 'last_batch': 0, 'last_index': 0, 'blocked_url_idx': None, 'timestamp': '2025-04-25 16:37:04'}
+2025-04-25 18:19:03,956 - coupang_crawler - INFO - 처리할 URL 범위: 0 ~ 426 (총 427개)
+2025-04-25 18:19:03,956 - coupang_crawler - INFO - 첫 번째 URL: https://www.coupang.com/vp/products/7630888717?itemId=20252600653&vendorItemId=87340557636&sourceType=cmgoms&omsPageId=81915&omsPageUrl=81915&isAddedCart=
+2025-04-25 18:19:03,956 - coupang_crawler - INFO - 마지막 URL: https://www.coupang.com/vp/products/8335416769?itemId=24068243370&vendorItemId=91088006345&sourceType=cmgoms&omsPageId=84874&omsPageUrl=84874&isAddedCart=
+2025-04-25 18:19:03,957 - coupang_crawler - INFO - 총 427개의 URL을 2개씩 배치 처리합니다.
+2025-04-25 18:19:03,958 - coupang_crawler - INFO - 상태 저장 완료: {'file_path': 'source_urls.xlsx', 'last_batch': 0, 'last_index': 0, 'blocked_url_idx': None, 'timestamp': '2025-04-25 18:19:03'}
+2025-04-25 18:19:03,958 - coupang_crawler - INFO - 현재 상태 저장: 배치 0, 인덱스 0
+2025-04-25 18:19:03,958 - coupang_crawler - INFO - 배치 1 시작 (URL 1~2/427)
+2025-04-25 18:19:03,959 - coupang_crawler - INFO - 배치 내 URL 1: https://www.coupang.com/vp/products/7630888717?itemId=20252600653&vendorItemId=87340557636&sourceType=cmgoms&omsPageId=81915&omsPageUrl=81915&isAddedCart=
+2025-04-25 18:19:03,959 - coupang_crawler - INFO - 배치 내 URL 2: https://www.coupang.com/vp/products/7630888717?itemId=20252600653&vendorItemId=87340557859&sourceType=cmgoms&omsPageId=81915&omsPageUrl=81915&isAddedCart=
+2025-04-25 18:19:04,734 - coupang_crawler - INFO - Headless 모드: 비활성화
+2025-04-25 18:19:04,852 - coupang_crawler - INFO - 배치 처리 범위: batch_start=0, batch_end=2
+2025-04-25 18:19:04,853 - coupang_crawler - INFO - 데이터프레임 크기: 427
+2025-04-25 18:19:04,853 - coupang_crawler - INFO - URL 1/2 처리 중: https://www.coupang.com/vp/products/7630888717?itemId=20252600653&vendorItemId=87340557636&sourceType=cmgoms&omsPageId=81915&omsPageUrl=81915&isAddedCart= (원본 인덱스: 0)
+2025-04-25 18:19:04,853 - coupang_crawler - INFO - 새 브라우저 컨텍스트 및 페이지 생성 중...
+2025-04-25 18:19:05,037 - coupang_crawler - INFO - 스텔스 스크립트 적용
+2025-04-25 18:19:05,451 - coupang_crawler - INFO - 새 컨텍스트 및 페이지 생성 완료.
+2025-04-25 18:19:08,280 - coupang_crawler - INFO - 제품명 추출: Apple 정품 아이폰 15 자급제...
+2025-04-25 18:27:14,937 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=TargetClosedError('Target page, context or browser has been closed')>
+playwright._impl._errors.TargetClosedError: Target page, context or browser has been closed
+2025-04-25 18:27:14,938 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=TargetClosedError('Target page, context or browser has been closed')>
+playwright._impl._errors.TargetClosedError: Target page, context or browser has been closed

@@ -1,0 +1,106 @@
+2025-04-25 18:44:35,248 - coupang_crawler - INFO - 쿠팡 크롤러 초기화
+2025-04-25 18:44:35,249 - coupang_crawler - INFO - 설정 파일 로드 완료: C:\Users\admin\Desktop\aws\coupang-crawler-project\config\crawler_config.json
+2025-04-25 18:44:35,249 - coupang_crawler - INFO - 셀렉터 파일 로드 완료: C:\Users\admin\Desktop\aws\coupang-crawler-project\config\selectors.json
+2025-04-25 18:44:35,250 - coupang_crawler - INFO - 자동 재시작: 활성화
+2025-04-25 18:44:35,250 - coupang_crawler - INFO - 자동 결과 검증: 활성화
+2025-04-25 18:44:35,250 - coupang_crawler - INFO - URL 대기 시간 설정: {'min': 15, 'max': 30}초
+2025-04-25 18:44:35,252 - coupang_crawler - INFO - 배치 대기 시간 설정: {'min': 25, 'max': 70}초
+2025-04-25 18:44:35,252 - coupang_crawler - INFO - 차단 감지 시 대기 시간: 1200초 (20분)
+2025-04-25 18:44:35,252 - coupang_crawler - INFO - 파일 로드 중: test.xlsx
+2025-04-25 18:44:35,595 - coupang_crawler - INFO - 파일에서 로드된 총 URL 수: 3
+2025-04-25 18:44:35,595 - coupang_crawler - INFO - 파일의 고유 URL 수: 3 (중복 URL: 0개)
+2025-04-25 18:44:35,595 - coupang_crawler - INFO - 상태 파일 로드: {'file_path': 'source_urls.xlsx', 'last_batch': 0, 'last_index': 0, 'blocked_url_idx': None, 'timestamp': '2025-04-25 18:19:03'}
+2025-04-25 18:44:35,596 - coupang_crawler - INFO - 로드된 상태: {'file_path': 'source_urls.xlsx', 'last_batch': 0, 'last_index': 0, 'blocked_url_idx': None, 'timestamp': '2025-04-25 18:19:03'}
+2025-04-25 18:44:35,596 - coupang_crawler - INFO - 처리할 URL 범위: 0 ~ 2 (총 3개)
+2025-04-25 18:44:35,596 - coupang_crawler - INFO - 첫 번째 URL: https://www.coupang.com/vp/products/7630888717?itemId=20252600653&vendorItemId=87340557636&sourceType=cmgoms&omsPageId=81915&omsPageUrl=81915&isAddedCart=
+2025-04-25 18:44:35,596 - coupang_crawler - INFO - 마지막 URL: https://www.coupang.com/vp/products/7630888717?itemId=20252600653&vendorItemId=87340557110&sourceType=cmgoms&omsPageId=81915&omsPageUrl=81915&isAddedCart=
+2025-04-25 18:44:35,597 - coupang_crawler - INFO - 총 3개의 URL을 2개씩 배치 처리합니다.
+2025-04-25 18:44:35,597 - coupang_crawler - INFO - 상태 저장 완료: {'file_path': 'test.xlsx', 'last_batch': 0, 'last_index': 0, 'blocked_url_idx': None, 'timestamp': '2025-04-25 18:44:35'}
+2025-04-25 18:44:35,598 - coupang_crawler - INFO - 현재 상태 저장: 배치 0, 인덱스 0
+2025-04-25 18:44:35,598 - coupang_crawler - INFO - 배치 1 시작 (URL 1~2/3)
+2025-04-25 18:44:35,598 - coupang_crawler - INFO - 배치 내 URL 1: https://www.coupang.com/vp/products/7630888717?itemId=20252600653&vendorItemId=87340557636&sourceType=cmgoms&omsPageId=81915&omsPageUrl=81915&isAddedCart=
+2025-04-25 18:44:35,598 - coupang_crawler - INFO - 배치 내 URL 2: https://www.coupang.com/vp/products/7630888717?itemId=20252600653&vendorItemId=87340557859&sourceType=cmgoms&omsPageId=81915&omsPageUrl=81915&isAddedCart=
+2025-04-25 18:44:38,210 - coupang_crawler - INFO - Headless 모드: 비활성화
+2025-04-25 18:44:38,331 - coupang_crawler - INFO - 배치 처리 범위: batch_start=0, batch_end=2
+2025-04-25 18:44:38,331 - coupang_crawler - INFO - 데이터프레임 크기: 3
+2025-04-25 18:44:38,332 - coupang_crawler - INFO - URL 1/2 처리 중: https://www.coupang.com/vp/products/7630888717?itemId=20252600653&vendorItemId=87340557636&sourceType=cmgoms&omsPageId=81915&omsPageUrl=81915&isAddedCart= (원본 인덱스: 0)
+2025-04-25 18:44:38,332 - coupang_crawler - INFO - 새 브라우저 컨텍스트 및 페이지 생성 중...
+2025-04-25 18:44:38,525 - coupang_crawler - INFO - 스텔스 스크립트 적용
+2025-04-25 18:44:38,973 - coupang_crawler - INFO - 새 컨텍스트 및 페이지 생성 완료.
+2025-04-25 18:44:41,900 - coupang_crawler - INFO - 제품명 추출: Apple 정품 아이폰 15 자급제...
+2025-04-25 18:44:42,153 - coupang_crawler - INFO - 가격(PRICE) 추출: 1,090,000원
+2025-04-25 18:44:42,269 - coupang_crawler - INFO - 원가(ORIGIN_PRICE) 없음, PRICE 값 사용: 1,090,000원
+2025-04-25 18:44:42,912 - coupang_crawler - INFO - 쿠폰 확인: 쿠폰 없음
+2025-04-25 18:44:43,203 - coupang_crawler - INFO - AppleCare 가격(AC_PRICE) 추출: 219,000원
+2025-04-25 18:44:43,203 - coupang_crawler - INFO - 제품 정보 추출 완료 (1.33초)
+2025-04-25 18:44:43,204 - coupang_crawler - INFO - 다음 URL로 넘어가기 전 29초 (29.43초) 대기...
+2025-04-25 18:45:12,679 - coupang_crawler - INFO - URL 2/2 처리 중: https://www.coupang.com/vp/products/7630888717?itemId=20252600653&vendorItemId=87340557859&sourceType=cmgoms&omsPageId=81915&omsPageUrl=81915&isAddedCart= (원본 인덱스: 1)
+2025-04-25 18:45:12,680 - coupang_crawler - INFO - 새 브라우저 컨텍스트 및 페이지 생성 중...
+2025-04-25 18:45:12,858 - coupang_crawler - INFO - 스텔스 스크립트 적용
+2025-04-25 18:45:13,184 - coupang_crawler - INFO - 새 컨텍스트 및 페이지 생성 완료.
+2025-04-25 18:45:15,834 - coupang_crawler - INFO - 제품명 추출: Apple 정품 아이폰 15 자급제...
+2025-04-25 18:45:16,041 - coupang_crawler - INFO - 가격(PRICE) 추출: 1,090,000원
+2025-04-25 18:45:16,230 - coupang_crawler - INFO - 원가(ORIGIN_PRICE) 없음, PRICE 값 사용: 1,090,000원
+2025-04-25 18:45:16,731 - coupang_crawler - INFO - 쿠폰 확인: 쿠폰 없음
+2025-04-25 18:45:17,043 - coupang_crawler - INFO - AppleCare 가격(AC_PRICE) 추출: 219,000원
+2025-04-25 18:45:17,044 - coupang_crawler - INFO - 제품 정보 추출 완료 (1.32초)
+2025-04-25 18:45:17,268 - coupang_crawler - INFO - 브라우저 종료.
+2025-04-25 18:45:17,278 - coupang_crawler - INFO - 저장할 배치 결과 수: 2
+2025-04-25 18:45:17,278 - coupang_crawler - INFO - 결과 1: URL=https://www.coupang.com/vp/products/7630888717?itemId=20252600653&vendorItemId=87340557636&sourceType=cmgoms&omsPageId=81915&omsPageUrl=81915&isAddedCart=
+2025-04-25 18:45:17,279 - coupang_crawler - INFO - 결과 2: URL=https://www.coupang.com/vp/products/7630888717?itemId=20252600653&vendorItemId=87340557859&sourceType=cmgoms&omsPageId=81915&omsPageUrl=81915&isAddedCart=
+2025-04-25 18:45:17,280 - coupang_crawler - INFO - 저장할 새 결과: 2개 항목
+2025-04-25 18:45:17,300 - coupang_crawler - INFO - 결과가 RAW\2025-04-25_coupang.xlsx에 저장되었습니다. (2개 항목)
+2025-04-25 18:45:17,300 - coupang_crawler - INFO - 배치 1 성공적으로 완료. 상태 저장 중...
+2025-04-25 18:45:17,301 - coupang_crawler - INFO - 상태 저장 완료: {'file_path': 'test.xlsx', 'last_batch': 1, 'last_index': 2, 'blocked_url_idx': None, 'timestamp': '2025-04-25 18:45:17'}
+2025-04-25 18:45:17,301 - coupang_crawler - INFO - 현재 상태 저장: 배치 1, 인덱스 2
+2025-04-25 18:45:17,301 - coupang_crawler - INFO - 상태 저장 완료. 다음 시작 인덱스: 2, 다음 배치: 1
+2025-04-25 18:45:17,301 - coupang_crawler - INFO - 다음 배치로 넘어가기 전 0분 33초 (33.95초) 대기...
+2025-04-25 18:45:51,254 - coupang_crawler - INFO - 다음 배치로 이동. 새 배치 인덱스: 1
+2025-04-25 18:45:51,254 - coupang_crawler - INFO - 상태 저장 완료: {'file_path': 'test.xlsx', 'last_batch': 1, 'last_index': 2, 'blocked_url_idx': None, 'timestamp': '2025-04-25 18:45:51'}
+2025-04-25 18:45:51,255 - coupang_crawler - INFO - 현재 상태 저장: 배치 1, 인덱스 2
+2025-04-25 18:45:51,255 - coupang_crawler - INFO - 배치 2 시작 (URL 3~3/3)
+2025-04-25 18:45:51,255 - coupang_crawler - INFO - 배치 내 URL 1: https://www.coupang.com/vp/products/7630888717?itemId=20252600653&vendorItemId=87340557636&sourceType=cmgoms&omsPageId=81915&omsPageUrl=81915&isAddedCart=
+2025-04-25 18:45:51,966 - coupang_crawler - INFO - Headless 모드: 비활성화
+2025-04-25 18:45:52,058 - coupang_crawler - INFO - 배치 처리 범위: batch_start=2, batch_end=3
+2025-04-25 18:45:52,058 - coupang_crawler - INFO - 데이터프레임 크기: 3
+2025-04-25 18:45:52,059 - coupang_crawler - INFO - URL 1/1 처리 중: https://www.coupang.com/vp/products/7630888717?itemId=20252600653&vendorItemId=87340557110&sourceType=cmgoms&omsPageId=81915&omsPageUrl=81915&isAddedCart= (원본 인덱스: 2)
+2025-04-25 18:45:52,059 - coupang_crawler - INFO - 새 브라우저 컨텍스트 및 페이지 생성 중...
+2025-04-25 18:45:52,233 - coupang_crawler - INFO - 스텔스 스크립트 적용
+2025-04-25 18:45:52,662 - coupang_crawler - INFO - 새 컨텍스트 및 페이지 생성 완료.
+2025-04-25 18:45:55,087 - coupang_crawler - INFO - 제품명 추출: Apple 정품 아이폰 15 자급제...
+2025-04-25 18:45:55,114 - coupang_crawler - INFO - 가격(PRICE) 추출: 1,090,000원
+2025-04-25 18:45:55,140 - coupang_crawler - INFO - 원가(ORIGIN_PRICE) 없음, PRICE 값 사용: 1,090,000원
+2025-04-25 18:45:55,310 - coupang_crawler - INFO - 쿠폰 확인: 쿠폰 없음
+2025-04-25 18:45:55,500 - coupang_crawler - INFO - AppleCare 가격(AC_PRICE) 추출: 219,000원
+2025-04-25 18:45:55,501 - coupang_crawler - INFO - 제품 정보 추출 완료 (0.43초)
+2025-04-25 18:45:55,939 - coupang_crawler - INFO - 브라우저 종료.
+2025-04-25 18:45:55,951 - coupang_crawler - INFO - 저장할 배치 결과 수: 1
+2025-04-25 18:45:55,951 - coupang_crawler - INFO - 결과 1: URL=https://www.coupang.com/vp/products/7630888717?itemId=20252600653&vendorItemId=87340557110&sourceType=cmgoms&omsPageId=81915&omsPageUrl=81915&isAddedCart=
+2025-04-25 18:45:55,953 - coupang_crawler - INFO - 저장할 새 결과: 1개 항목
+2025-04-25 18:45:55,961 - coupang_crawler - INFO - 기존 파일 로드: 2개 항목
+2025-04-25 18:45:55,977 - coupang_crawler - INFO - 결과가 RAW\2025-04-25_coupang.xlsx에 누적 저장되었습니다. (기존:2 + 새로운:1 = 총:3개 항목)
+2025-04-25 18:45:55,977 - coupang_crawler - INFO - 배치 2 성공적으로 완료. 상태 저장 중...
+2025-04-25 18:45:55,978 - coupang_crawler - INFO - 상태 저장 완료: {'file_path': 'test.xlsx', 'last_batch': 2, 'last_index': 3, 'blocked_url_idx': None, 'timestamp': '2025-04-25 18:45:55'}
+2025-04-25 18:45:55,978 - coupang_crawler - INFO - 현재 상태 저장: 배치 2, 인덱스 3
+2025-04-25 18:45:55,979 - coupang_crawler - INFO - 상태 저장 완료. 다음 시작 인덱스: 3, 다음 배치: 2
+2025-04-25 18:45:55,979 - coupang_crawler - INFO - 다음 배치로 이동. 새 배치 인덱스: 2
+2025-04-25 18:45:55,979 - coupang_crawler - INFO - 
+===== 크롤링 완료 =====
+2025-04-25 18:45:55,979 - coupang_crawler - INFO - 처리된 URL: 3/3
+2025-04-25 18:45:55,980 - coupang_crawler - INFO - 성공: 3 URLs (100.0%)
+2025-04-25 18:45:55,980 - coupang_crawler - INFO - 실패: 0 URLs
+2025-04-25 18:45:55,980 - coupang_crawler - INFO - 차단 감지: 0 회
+2025-04-25 18:45:55,980 - coupang_crawler - INFO - 총 소요 시간: 0시간 1분 21초
+2025-04-25 18:45:55,981 - coupang_crawler - INFO - 최종 결과 파일: RAW\2025-04-25_coupang.xlsx
+2025-04-25 18:45:55,981 - coupang_crawler - INFO - ========================
+2025-04-25 18:45:55,981 - coupang_crawler - INFO - 크롤링이 완료되어 상태 파일을 초기화합니다.
+2025-04-25 18:45:55,981 - coupang_crawler - INFO - 
+===== 크롤링 완료, 자동 결과 검증 및 오류 URL 재수집 시작 =====
+2025-04-25 18:45:55,982 - coupang_crawler - INFO - 결과 검증기 초기화
+2025-04-25 18:45:55,982 - coupang_crawler - INFO - 설정 파일 로드 완료: C:\Users\admin\Desktop\aws\coupang-crawler-project\config\crawler_config.json
+2025-04-25 18:45:55,983 - coupang_crawler - INFO - 셀렉터 파일 로드 완료: C:\Users\admin\Desktop\aws\coupang-crawler-project\config\selectors.json
+2025-04-25 18:45:55,983 - coupang_crawler - INFO - 결과 파일 검증 및 재수집 시작: RAW\2025-04-25_coupang.xlsx
+2025-04-25 18:45:55,993 - coupang_crawler - INFO - 총 3개 레코드 로드됨
+2025-04-25 18:45:56,008 - coupang_crawler - INFO - 원본 크롤링 결과 백업 완료: RAW\2025-04-25_coupang_original.xlsx
+2025-04-25 18:45:56,009 - coupang_crawler - INFO - 오류가 있는 레코드가 없습니다. 재수집이 필요하지 않습니다.
+2025-04-25 18:45:56,022 - coupang_crawler - INFO - 오류가 없어 원본과 동일한 검증 결과 파일 생성: RAW\2025-04-25_coupang_validated.xlsx
